@@ -1,0 +1,77 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[english,russian]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{indentfirst}
+\usepackage{enumitem}
+\usepackage{float}
+% Times New Roman font (Annex 7, §1.3 — TNR 12pt)
+\usepackage{mathptmx}
+
+\geometry{
+  a4paper,
+  left=25mm,
+  right=10mm,
+  top=20mm,
+  bottom=20mm
+}
+
+% Annex 7, §1.3: line spacing 1.5, paragraph indent 1.25 cm
+\onehalfspacing
+\setlength{\parindent}{1.25cm}
+
+% Annex 7, §1.4.1 & §1.4.2: figure captions below (centred) with en-dash;
+% table captions above, left-aligned, with en-dash.
+\usepackage{caption}
+\usepackage{multirow}
+\captionsetup[figure]{labelsep=endash}
+\captionsetup[table]{singlelinecheck=false, justification=raggedright,
+                     labelsep=endash, position=top}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  urlcolor=blue,
+  citecolor=blue
+}
+\urlstyle{rm}
+
+\begin{document}
+
+%----------------------------------------------------------------------
+% Title page
+%----------------------------------------------------------------------
+\begin{titlepage}
+  \begin{center}
+    NATIONAL RESEARCH UNIVERSITY\\
+    HIGHER SCHOOL OF ECONOMICS\\[1em]
+    Faculty of Computer Science\\
+    Bachelor's Programme ``Data Science And Business Analytics''\\[4em]
+
+    Research Project Report on the Topic:\\[1em]
+    Optimisation of Warehouse Slotting and Routing\\[5em]
+
+    \begin{flushleft}
+      Submitted by the Student:\\[0.5em]
+      Korablina Maya Aleksandrovna\\
+      group \#БПАД233, 3rd year of study\\[2em]
+
+      Approved by the Project Supervisor:\\[0.5em]
+      Korneluyk Egor\\
+      Faculty of Computer Science, HSE University
+    \end{flushleft}
+
+    \vfill
+    Moscow 2026
+  \end{center}
+\end{titlepage}
+
+\end{document}
